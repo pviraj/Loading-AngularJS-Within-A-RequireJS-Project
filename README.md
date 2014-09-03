@@ -54,3 +54,6 @@ If you require Angular to be loaded throughout your application, remove the if s
       	
       })(this.require);
     
+## Bugs?
+
+Please add them to the [Issue Tracker][issues] with as much info as possible, especially source code demonstrating the issue.
