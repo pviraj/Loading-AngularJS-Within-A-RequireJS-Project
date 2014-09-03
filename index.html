@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>How to load Angular with RequireJS</h1>
+  
+  <h2>RequireJS/jQuery Stuff</h2>
+  <div>
+    <button>Click Me - jQuery Toggle</button>
+    <p>Hiya</p>
+    <p>Such an interesting toggle, eh?</p>
+  </div>
+  
+  <br>
+  
+  <h2>Angular Stuff</h2>
+  <div ng-controller="MyController">
+    
+    <h3>Simple $scope binding</h3>
+    <p>{{Hello}}</p>
+    
+    
+    <h3>Simple ng-repeat</h3>
+    <ul>
+      <li ng-repeat="people in SomeData">
+        {{people.Firstname}} {{people.Surname}}
+      </li>
+    </ul>
+    
+  </div>
+
+
+</body>
+
+<script src="require.js" data-main="main"></script>
+
+</html>
